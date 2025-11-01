@@ -72,7 +72,7 @@ export const printBill = (bill: Bill, showAmounts: boolean = true) => {
         </head>
         <body>
           <div class="header">
-            <img src="/logo.jpg" alt="JAF HOT CHICKEN Logo" style="width: 50mm; height: auto; margin-bottom: 5px;">
+            <img src="/hot-chicken-logo.png" alt="Hot Chicken Logo" style="width: 50mm; height: auto; margin-bottom: 5px;">
             <h2>JAF HOT CHICKEN</h2>
             <p>57K, SENTHIL COMPLEX, TENKASI</p>
             <p>TAMIL NADU 627811</p>
