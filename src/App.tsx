@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "@/hooks/useAuth";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
+import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -51,7 +52,7 @@ const App = () => (
             <Route path="/dashboard/billing" element={<Dashboard />} />
             <Route path="/dashboard/bill-history" element={<Dashboard />} />
             <Route path="/dashboard/active-orders" element={<Dashboard />} />
-            <Route path="*" element={<Login />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
